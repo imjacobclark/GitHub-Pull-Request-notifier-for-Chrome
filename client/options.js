@@ -14,7 +14,7 @@ function populateProjectList(){
 		obj.data.forEach(function(project){
 			projectForms.insertAdjacentHTML("beforeend", '\
 			<div class="add-project__form">\
-				<input type="text" value="' + project.org + '" placeholder="Organisation" class="org">\
+				<input type="text" value="' + project.org + '" placeholder="Organization" class="org">\
 				<input type="text" value="' + project.repo + '" placeholder="Repo" class="repo">\
 			</div>');
 		});
